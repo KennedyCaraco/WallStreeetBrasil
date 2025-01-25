@@ -7,7 +7,7 @@
 
 body{
     background-color: rgb(24, 22, 41);
-    height: 100vh;
+    height: 120vh;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -120,3 +120,37 @@ footer{
     }
 
 }
+
+@media (max-width: 1024px){
+    body{
+        height: 100vh;
+    }
+}
+
+
+@media (max-width: 768px){
+    body{
+        height: 100vh;
+
+    }
+    .caixa-botoes{
+        button{
+            width: 400px;
+        }
+    }
+}
+
+@media (max-width: 480px){
+    body{
+        height: 100vh;
+        
+    }
+
+    .caixa-botoes{
+        button{
+            width: 350px;
+            min-width: 350px;
+        }
+    }
+}
+
